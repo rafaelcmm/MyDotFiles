@@ -32,7 +32,6 @@ read -s password
 . yarn.sh
 
 # Installing git
-. git.sh
 
 # Installing grep
 . grep.sh
