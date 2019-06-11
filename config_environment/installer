@@ -76,15 +76,6 @@ read -s password
 # Installing RVM with Ruby
 . rvm.sh
 
-# Installing Stack - Haskell
-. stack.sh
-
-# Installing GitQL
-. gitql.sh
-
-# Installing gtypist
-. gtypist.sh
-
 # Installing MySQL
 . mysql.sh
 
@@ -94,62 +85,17 @@ read -s password
 # Installing Jetbrains-Toolbox
 . jetbrains_toolbox.sh
 
-# Installing Intellij-IDEA
-#. intellij.sh
-
-# Installing CLion
-#. clion.sh
-
-# Installing DataGrip
-#. datagrip.sh
-
-# Installing WebStorm
-#. webstorm.sh
-
-# Installing AppCode
-#. appcode.sh
-
 # Installing Android-Studio
 . android_studio.sh
 
-# Installing pidcat
-. pidcat.sh
-
 # Installing iTerm2
 . iterm.sh
-
-# Installing Alfred
-. alfred.sh
-
-# Installing AppCleaner
-. appcleaner.sh
-
-# Installing Boostnote
-. boostnote.sh
-
-# Installing Evernote
-. evernote.sh
 
 # Installing Google Chrome
 . google_chrome.sh
 
 # Installing Google Drive
 . google_drive.sh
-
-# Installing Skype
-. skype.sh
-
-# Installing 1Password
-. 1password.sh
-
-# Installing Itau
-. itau.sh
-
-# Installing Microsoft-Office
-. microsoft_office.sh
-
-# Installing Opera
-. opera.sh
 
 # Installing Spotify
 . spotify.sh
@@ -160,29 +106,8 @@ read -s password
 # Installing Android File Transfer
 . android_file_transfer.sh
 
-# Installing Tunnelblick
-. tunnelblick.sh
-
-# Installing Virtualbox
-. virtualbox.sh
-
-# Installing Genymotion
-. genymotion.sh
-
-# Installing GitHub-Desktop
-#. github_desktop.sh
-
-# Installing Adobe Photoshop
-. photoshop.sh
-
-# Installing Sketch
-. sketch.sh
-
 # Installing Slack
 . slack.sh
-
-# Installing KAP
-. kap.sh
 
 # Installing Postman
 . postman.sh
