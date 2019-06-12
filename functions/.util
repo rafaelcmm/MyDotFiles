@@ -2,7 +2,7 @@
 
 function addGoAlias() {
   alias_name=$1
-  echo "alias go$alias_name=\"cd `pwd`\"" >> $HOME/Projects/MyDotFiles/.goaliases
+  echo "alias go$alias_name=\"cd `pwd`\"" >> $HOME/Workspace/MyDotFiles/.goaliases
   source $HOME/.zshrc
 }
 

@@ -1,7 +1,6 @@
 #!/bin/bash
 
-export FUNCTIONS=$HOME/Projects/MyDotFiles/functions
-export SECRETS=$HOME/Projects/MyDotFiles/secrets/functions
+export FUNCTIONS=$HOME/Workspace/MyDotFiles/functions
 
 . $FUNCTIONS/.android
 . $FUNCTIONS/.git_functions
@@ -12,6 +11,4 @@ export SECRETS=$HOME/Projects/MyDotFiles/secrets/functions
 . $FUNCTIONS/.babel
 . $FUNCTIONS/.corona
 . $FUNCTIONS/.python
-. $SECRETS/.greenmile
-. $SECRETS/.agenda
 

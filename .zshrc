@@ -1,4 +1,4 @@
-export ZSH="/Users/carloseduardosx/.oh-my-zsh"
+export ZSH="/Users/rafael/.oh-my-zsh"
 export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
 
 ZSH_THEME="robbyrussell"
@@ -11,7 +11,7 @@ plugins=(
 autoload -U compinit && compinit
 
 # Path
-. $HOME/Projects/MyDotFiles/.path
+. $HOME/Workspace/MyDotFiles/.path
 
 # ZSH
 . $ZSH/oh-my-zsh.sh
@@ -19,23 +19,18 @@ autoload -U compinit && compinit
 # Z
 . $Z/z.sh
 
-# Alias
-. $HOME/Projects/MyDotFiles/.aliases
-. $HOME/Projects/MyDotFiles/.goaliases
-
 # Functions
-. $HOME/Projects/MyDotFiles/functions/source.bash
+. $HOME/Workspace/MyDotFiles/functions/source.bash
 
 # Logger
-. $HOME/Projects/MyDotFiles/.logger
+. $HOME/Workspace/MyDotFiles/.logger
 
 # Colors
-. $HOME/Projects/MyDotFiles/.color-constants
+. $HOME/Workspace/MyDotFiles/.color-constants
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-function gmdevenv { cd /Users/carloseduardosx/Projects/greenmile/gm-dev-env/core; ./run.sh $*; cd - >/dev/null; }
 

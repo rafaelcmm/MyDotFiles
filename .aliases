@@ -33,7 +33,7 @@ alias android_list_all_packages="adb -d shell 'pm list packages -f' | sed -e 's/
 
 alias gmdjs_test="npm run prep:deps && cross-env CI=true react-scripts test --testPathPattern=\"test/app/containers/pages/FinancialSummaryPage.test.jsx\""
 
-alias gmdjs_igrc_local="npm uninstall --save gm-react-components && npm i --save $HOME/Projects/greenmile/gm-react-components"
+alias gmdjs_igrc_local="npm uninstall --save gm-react-components && npm i --save $HOME/Workspace/greenmile/gm-react-components"
 
 alias gm_pidcat="pidcat com.greenmile.android"
 
@@ -58,9 +58,9 @@ alias gm_build_driver_tests="mvn clean compile exec:java package -DskipTests"
 
 alias gm_driver_tests_exec="mvn clean compile exec:java test"
 
-alias gm_copy_debug_apk_to_appium_folder="cp $HOME/Projects/gm-driver-android/driver/greenmile-android/build/outputs/apk/greenmile-android-debug-unaligned-*.apk /android_appium_apks/master/greenmile-android-release.apk"
+alias gm_copy_debug_apk_to_appium_folder="cp $HOME/Workspace/gm-driver-android/driver/greenmile-android/build/outputs/apk/greenmile-android-debug-unaligned-*.apk /android_appium_apks/master/greenmile-android-release.apk"
 
-alias gm_install_debug_apk="adb install $HOME/Projects/gm-driver-android/greenmile-android/build/outputs/apk/greenmile-android-debug-unaligned-*.apk"
+alias gm_install_debug_apk="adb install $HOME/Workspace/gm-driver-android/greenmile-android/build/outputs/apk/greenmile-android-debug-unaligned-*.apk"
 
 alias gm_uninstall_driver="adb uninstall com.greenmile.android"
 

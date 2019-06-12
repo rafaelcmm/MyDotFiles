@@ -173,8 +173,8 @@ set laststatus=2                                        "Show statusline all the
 
 " ================ Abbreviations ====================
 
-iabbrev mail carloseduardosx2015@gmail.com
-iabbrev gu https://github.com/carloseduardosx
+iabbrev mail rafael2015@gmail.com
+iabbrev gu https://github.com/rafael
 inoreabbrev gmcall export function functionName({ server, client = getDefaultClient() }) {<CR>}
 cnoreabbrev Wq wq
 cnoreabbrev WQ wq
