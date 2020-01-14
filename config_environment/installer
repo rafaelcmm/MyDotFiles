@@ -75,9 +75,6 @@ read -s password
 # Installing RVM with Ruby
 . rvm.sh
 
-# Installing MySQL
-. mysql.sh
-
 # Installing PostgreSQL
 . postgresql.sh
 
@@ -95,12 +92,6 @@ read -s password
 
 # Installing Google Drive
 . google_drive.sh
-
-# Installing Spotify
-. spotify.sh
-
-# Installing Telegram-Desktop
-. telegram_desktop.sh
 
 # Installing Android File Transfer
 . android_file_transfer.sh
